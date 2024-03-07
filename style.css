@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #250057;
+}
+#input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 300px auto;
+}
+#input {
+  height: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #555;
+}
+input::placeholder{
+  font-size: 1.1rem;
+}
+#input-box img {
+  width: 30px;
+  object-fit: cover;
+}
